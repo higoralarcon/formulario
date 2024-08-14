@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<body>
+    <form>
+<h1>Pesquisa de Opnião</h1>
+<p style="font-size: small;">Nessa pesquisa você será questionado sobre o produto X. Esse produto è vendido em todo o pais nas perfumarias, lojas de departamento, internet entre outros. Responda as questões abaixo de acordo com sua opinião</p>
+<fieldset>
+    <legend>Informações pessoais</legend>
+    <input type="text" name="name" placeholder="Digite o seu nome"><br><br>
+    <input type="text" name="idade" placeholder="Digite a sua Idade"><br><br>
+    <input type="email" name="e-mail" placeholder="Digite o seu email"><br><br>
+    
+    Data de nascimento <br><input type="date" name="nascimento">
+<br><br>
+    Digite uma senha para acessar os dados da pesquisa posteriormente: <br> <input type="password" name="senha" placeholder="Digite uma Senha">
+</fieldset>
+<fieldset>
+<legend>Aspecto do produto</legend>
+Selecione sua cor do produto apos 6 meses de uso <br><input type="color" name="favcor" value="FFFFFF">
+<br>
+<br>
+Adicione uma foto do seu produto<br><input type="file" name="arquivos">
+</fieldset>
+<fieldset>
+    <legend>Opnião quanto a utilização</legend>
+
+Você gosta do cheiro do produto?<br><input type="radio" name="cheiro" value="gst mt"> Gosto muito <br>
+<input type="radio" name="cheiro" value="gst"> Gosto <br>
+<input type="radio" name="cheiro" value="n sei"> Não sei <br>
+<input type="radio" name="cheiro" value="n gst"> Não gosto <br>
+<input type="radio" name="cheiro" value="odeio"> Odeio <br><br>
+
+Marque as caracteristicas do produto mais gosta<br><input type="checkbox" name="carcs" value="Fixação">Fixação<br>
+<input type="checkbox" name="carcs" value="Textura">Textura<br>
+<input type="checkbox" name="carcs" value="Cheiro">Cheiro<br>
+<input type="checkbox" name="carcs" value="Cor">Cor<br>
+<input type="checkbox" name="carcs" value="Embalagem">Embalagem<br>
+</fieldset>
+<fieldset>
+    <legend>Nivel de satisfação</legend>
+    Coloque nessa escala o seu nivel de satisfação geral do produto<br>
+    
+    <input type="range" name="satisfeito" min="0" max="10"><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Opniões</legend>
+   
+  
+   Digite abaixo sua opnião geral para esse produto<br><textarea style="width: 590px; height: 120px;">
+
+   </textarea>
+ 
+</fieldset>
+<br><br>
+<input type="submit" value="Gravar respostas">
+</form>
+</body>
+</html>
